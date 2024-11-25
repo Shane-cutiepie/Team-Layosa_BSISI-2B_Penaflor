@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA; /* Lilac background */
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            gap: 20px; /* Space between the two columns */
+            width: 90%;
+            max-width: 1000px;
+            max-height: 90vh;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        .info-container, .skills-experience-container {
+            border: 1px solid purple;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 48%; /* Set width to ensure both containers fit side by side */
+        }
+        h2 {
+            color: purple;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #f0e6ff;
+            border-radius: 5px;
+        }
+        .picture {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%; /* Adjust the image size */
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            background-color: lightgray;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: purple;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="info-container">
+            <img src="yvette.jpg" alt="Shane Yvette" class="picture">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> Shane Yvette C. Peñaflor</p>
+            <p><strong>Age:</strong> 19</p>
+            <p><strong>Birthday:</strong> October 25, 2005</p>
+            <p><strong>Address:</strong> Purok 3 Quibongbongan, Guinobatan, Albay</p>
+
+            <h2>Contact Information</h2>
+            <p><strong>Contact Number:</strong> 09810357493</p>
+            <p><strong>Email:</strong> <a href="mailto:penaflorshaneyvette@gmail.com">penaflorshaneyvette@gmail.com</a></p>
+        </div>
+
+        <div class="skills-experience-container">
+            <h2>Experience</h2>
+            <ul>
+                <li>Tutoring Middle School Students</li>
+                <li>Participation in a School Play</li>
+                <li>Internship at Local Non-Profit Organization</li>
+                <li>Volunteer Work at Community Events</li>
+            </ul>
+
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Elementary:</strong> Guinobatan East Central School</li>
+                <li><strong>High School:</strong> Marcial O. Rañola Memorial School</li>
+                <li><strong>College:</strong> Bicol University</li>
+            </ul>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>Active Listening Skills</li>
+                <li>Communication Skills</li>
+                <li>Computer Skills</li>
+                <li>Interpersonal Skills</li>
+                <li>Time Management</li>
+                <li>Team Collaboration</li>
+                <li>Problem-Solving Skills</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
